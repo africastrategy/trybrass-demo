@@ -2568,7 +2568,7 @@ fieldset {
   width: 60%;
   margin: 0 auto;
   display: block;
-  box-shadow: 2px 5px 10px #777;
+  box-shadow: 2px 5px 10px #ccc;
 }
 
 @media screen and (max-width: 768px) {
