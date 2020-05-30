@@ -2547,6 +2547,42 @@ fieldset {
   justify-content: center;
   width: 100%;
 }
+
+.mobile {
+  padding-top: 100px;
+  display: flex;
+  height: 600px;
+  overflow: hidden;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mobile-outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mobile .img-app {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 2px 5px 10px #777;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    height: auto;
+  }
+  .mobile-outline {
+    width: 80%;
+  }
+  .mobile-outline
+    .waiting-list_waitingList_body_heroContent_description__3Y_WN {
+    text-align: left;
+  }
+}
 @media (min-width: 769px) {
   .waiting-list_waitingList_body_heroContent_form__3d2Kj {
     justify-content: flex-start;
